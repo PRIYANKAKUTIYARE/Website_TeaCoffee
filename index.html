@@ -1,63 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your_Coffee</title>
-    <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your_Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
+
 <body>
-    <!-- NavBar -->
-     <!-- NavBar -->
-<header>
-  <a href="#" class="logo">
-    <img src="Coffee_Website_Images/img/logo.png" alt="Logo" />
-  </a>
+  <!-- NavBar -->
+  <!-- NavBar -->
+  <header>
+    <a href="#" class="logo">
+      <img src="Coffee_Website_Images/img/logo.png" alt="Logo" />
+    </a>
     <!-- menu icon -->
-  <i class='bx bx-menu' id="menu-icon"></i>
-  <div class="navbar-right">
-    <ul class="navbar">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#products">Products</a></li>
-    <li><a href="#customers">Customers</a></li>
-  </ul>
-    <!-- search box -->
-    <div class="search-box">
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <div class="navbar-right">
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#customer">Customers</a></li>
+      </ul>
+      <!-- search box -->
+      <div class="search-box">
         <form>
-        <input type="search" name="" id="" placeholder="Search Here">
-        <button type="submit">Go</button>
+          <input type="search" name="" id="SearchInput" placeholder="Search Here">
+          <button type="submit">Go</button>
         </form>
-      
+      </div>
+      <!-- icons -->
+      <div class="header-icon">
+        <i class='bx bx-cart'></i>
+        <!-- <i class='bx bx-search'></i> -->
+        <!-- <i class='bxr  bx-user'  ></i>  -->
+        <i class='bx  bxs-user'></i>
+      </div>
     </div>
-  <!-- icons -->
-  <div class="header-icon">
-    <i class='bx bx-cart'></i>
-    <!-- <i class='bx bx-search'></i> -->
-     <!-- <i class='bxr  bx-user'  ></i>  -->
-     <i class='bx  bxs-user'></i> 
-  </div>
-  </div>
-  <!-- links -->
-</header>
-<section class="home" id="home">
+    <!-- links -->
+  </header>
+  <section class="home" id="home">
     <div class="home-text">
-        <h1>Start Your Day <br> With Chai-Coffee</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae at officiis ducimus modi voluptas vitae laboriosam aliquam facere minus reiciendis minima veritatis omnis velit commodi voluptatem accusantium, autem maxime! Iure!</p>
-        <a href="#" class="btn">Order Now</a>
+      <br>
+      <h1>Start Your Day <br> With Chai-Coffee</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae at officiis ducimus modi voluptas vitae
+        laboriosam aliquam facere minus reiciendis minima veritatis omnis velit commodi voluptatem accusantium, autem
+        maxime! Iure!</p>
+      <a href="#" class="btn">Order Now</a>
     </div>
     <div class="home-img">
-        <img src="Coffee_Website_Images/img/main.png" alt="loading">
+      <img src="Coffee_Website_Images/img/main.png" alt="loading">
     </div>
-</section>
-<h1>This is the Coffee Website...</h1>
+  </section>
+  <!-- about -->
 
-<script src="main.js"></script>
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="Coffee_Website_Images/img/about.png" alt="About Us">
+    </div>
+    <div class="about-text">
+      <h2>Our History</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum! Doloribus, cumque. Quasi,
+        asperiores. Doloremque, voluptatibus. Doloribus, cumque. Quasi, asperiores. Doloremque, voluptatibus. Doloribus,
+        cumque. Quasi, asperiores.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum! Doloribus, cumque. Quasi,
+        asperiores. Doloremque, voluptatibus. Doloribus, cumque. Quasi, asperiores. Doloremque, voluptatibus. Doloribus,
+        cumque. Quasi, asperiores.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum! Doloribus, cumque. Quasi,
+        asperiores. Doloremque, voluptatibus. Doloribus, cumque. Quasi, asperiores. Doloremque, voluptatibus. Doloribus,
+        cumque. Quasi, asperiores.
+      </p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- products -->
+  <section>
+    <section class="products" id="products">
+      <div class="heading">
+        <h2>Our Poupular Products</h2>
+      </div>
+      <div class="product-container">
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p1.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p2.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p3.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p4.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p5.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="Coffee_Website_Images/img/p6.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+  </section>
+
+  <!-- Customers -->
+  <section class="customer" id="customer">
+    <div class="heading">
+      <h2>Our Customers</h2>
+    </div>
+    <div class="customer-container">
+      <div class="box">
+        <div class="stars">
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star-half' style='color:gold; font-size:24px;'></i>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur sit deleniti molestias,
+          exercitationem aspernatur voluptatem magni suscipit doloribus. Fugit nemo nam, suscipit modi sint eveniet at
+          perspiciatis quis sapiente.
+        </p>
+        <h2>Yashin Armania</h2>
+        <img src="Coffee_Website_Images/img/rev1.jpg" alt="">
+      </div>
+      <div class="box">
+        <div class="stars">
+
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star-half' style='color:gold; font-size:24px;'></i>
+
+
+
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur sit deleniti molestias,
+          exercitationem aspernatur voluptatem magni suscipit doloribus. Fugit nemo nam, suscipit modi sint eveniet at
+          perspiciatis quis sapiente.
+        </p>
+        <h2>Rehan shakaf</h2>
+        <img src="Coffee_Website_Images/img/rev2.jpg" alt="">
+      </div>
+      <div class="box">
+        <div class="stars">
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star' style='color:gold; font-size:24px;'></i>
+          <i class='bx bxs-star-half' style='color:gold; font-size:24px;'></i>
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur sit deleniti molestias,
+          exercitationem aspernatur voluptatem magni suscipit doloribus. Fugit nemo nam, suscipit modi sint eveniet at
+          perspiciatis quis sapiente.
+        </p>
+        <h2>Dilruba Dilmurat </h2>
+        <img src="Coffee_Website_Images/img/rev3.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
 
 </body>
+
 </html>
-
-
-   
